@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Premium Meeting Room & Boardroom in Vashi | Bizspace</title>
+    <meta name="title" content="Premium Meeting Room & Boardroom in Vashi | Bizspace">
+    <meta name="description" content="Rent a premium 15-seater corporate boardroom and training space in Vashi, Navi Mumbai. Fully serviced with Smart TV, Wi-Fi, and hourly/daily pricing. Book Bizspace instantly.">
+    <meta name="keywords" content="meeting room Vashi, boardroom on rent Navi Mumbai, corporate training space Vashi, hourly meeting room, conference room Ambience Court, Bizspace Vashi, HR interview room Navi Mumbai">
+    <meta name="author" content="Bizspace">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.bizspace.in/">
+    <meta property="og:title" content="Premium Meeting Room & Boardroom in Vashi | Bizspace">
+    <meta property="og:description" content="Plug-and-play 15-seater corporate boardroom at Ambience Court, Vashi. Hourly and daily rentals available. Check availability and book online.">
+    <!-- Replace with an actual URL of your room once hosted -->
+    <meta property="og:image" content="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Premium Meeting Space in Vashi | Bizspace">
+    <meta property="twitter:description" content="Hourly and daily rentals for premium boardrooms at Ambience Court, Vashi.">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Local Business Schema Markup (JSON-LD) for Google SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MeetingRoom",
+      "name": "Bizspace Premium Boardroom",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+      "@id": "https://www.bizspace.in",
+      "url": "https://www.bizspace.in",
+      "telephone": "+919152049967",
+      "priceRange": "₹1200 - ₹8000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "10th Floor, Ambience Court, Sector 19D",
+        "addressLocality": "Vashi, Navi Mumbai",
+        "postalCode": "400705",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 19.072834,
+        "longitude": 73.003977
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        ],
+        "opens": "08:00",
+        "closes": "20:00"
+      },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Free Wi-Fi", "value": "True" },
+        { "@type": "LocationFeatureSpecification", "name": "Smart TV", "value": "True" },
+        { "@type": "LocationFeatureSpecification", "name": "Pantry", "value": "True" }
+      ]
+    }
+    </script>
+
+    <style>
+        /* --- Premium Color Palette & Variables --- */
+        :root {
+            --primary-dark: #1A2127;
+            --accent-orange: #F59E0B;
+            --bg-light: #F8F9FA;
+            --bg-white: #FFFFFF;
+            --text-dark: #1E293B;
+            --text-muted: #64748B;
+            --border-color: #E2E8F0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: var(--text-dark); line-height: 1.7; background-color: var(--bg-light); overflow-x: hidden; }
+        h1, h2, h3, h4 { font-family: 'Playfair Display', serif; color: var(--primary-dark); }
+        a { text-decoration: none; }
+
+        /* Animations */
+        .reveal { opacity: 0; transform: translateY(40px); transition: all 0.8s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+
+        /* Buttons */
+        .btn-orange { display: inline-block; background: var(--accent-orange); color: var(--bg-white); padding: 14px 28px; border-radius: 4px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; transition: all 0.3s ease; border: 1px solid var(--accent-orange); cursor: pointer; }
+        .btn-orange:hover { background: var(--primary-dark); border-color: var(--primary-dark); color: var(--accent-orange); }
+        .btn-outline { background: transparent; border: 1px solid var(--accent-orange); color: var(--accent-orange); }
+        .btn-outline:hover { background: var(--accent-orange); color: var(--bg-white); }
+
+        /* Navigation */
+        header { position: fixed; width: 100%; top: 0; z-index: 1000; padding: 20px 5%; display: flex; justify-content: space-between; align-items: center; transition: all 0.4s ease; background: transparent; }
+        header.scrolled { background: var(--primary-dark); padding: 10px 5%; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .logo-container { display: flex; align-items: center; gap: 15px; }
+        .logo-icon { height: 60px; width: auto; }
+        .logo-text { height: 40px; width: auto; }
+        .nav-links a { margin: 0 15px; font-weight: 500; font-size: 0.95rem; color: var(--bg-white); transition: color 0.3s; }
+        .nav-links a:hover { color: var(--accent-orange); }
+
+        /* Hero Section */
+        .hero { height: 100vh; background: linear-gradient(to right, rgba(26, 33, 39, 0.95), rgba(26, 33, 39, 0.7)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80') center/cover; display: flex; align-items: center; padding: 0 5%; }
+        .hero-content { max-width: 700px; margin-top: 50px; }
+        .seo-h1 { font-size: 2.2rem; color: var(--bg-white); line-height: 1.2; margin-bottom: 10px; font-weight: 400; }
+        .hero-brand-img { max-height: 100px; margin-bottom: 25px; display: block; }
+        .hero p { color: #E2E8F0; font-size: 1.1rem; margin-bottom: 40px; }
+
+        /* Trust Banner */
+        .trust-banner { background: var(--primary-dark); padding: 30px 5%; text-align: center; border-bottom: 2px solid var(--accent-orange); }
+        .trust-banner p { color: var(--bg-white); font-family: 'Playfair Display', serif; font-size: 1.2rem; font-style: italic; }
+
+        /* Sections */
+        section { padding: 100px 5%; }
+        .section-header { text-align: center; margin-bottom: 60px; }
+        .section-header h2 { font-size: 2.8rem; margin-bottom: 15px; }
+        .section-header .divider { height: 3px; width: 60px; background: var(--accent-orange); margin: 0 auto; }
+
+        /* Amenities Grid */
+        .amenities-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; }
+        .amenity-card { padding: 40px 30px; background: var(--bg-light); border: 1px solid var(--border-color); text-align: center; transition: all 0.4s ease; }
+        .amenity-card:hover { transform: translateY(-10px); border-color: var(--accent-orange); box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        .amenity-card i { font-size: 2.5rem; color: var(--accent-orange); margin-bottom: 20px; }
+        .amenity-card h3 { font-family: 'Inter', sans-serif; font-size: 1.2rem; margin-bottom: 10px; }
+
+        /* Pricing Section */
+        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; align-items: center; }
+        .price-card { background: var(--bg-white); padding: 50px 40px; border: 1px solid var(--border-color); text-align: center; position: relative; }
+        .price-card.premium { background: var(--primary-dark); color: var(--bg-white); transform: scale(1.05); box-shadow: 0 20px 40px rgba(26, 33, 39, 0.2); }
+        .price-card.premium h3, .price-card.premium p { color: var(--bg-white); }
+        .price-card h3 { font-size: 1.8rem; margin-bottom: 20px; }
+        .price { font-size: 3rem; font-weight: 700; color: var(--accent-orange); margin-bottom: 20px; font-family: 'Playfair Display', serif; }
+        .price span { font-size: 1rem; font-family: 'Inter', sans-serif; color: var(--text-muted); font-weight: 400; }
+        .price-card ul { list-style: none; margin: 30px 0; text-align: left; }
+        .price-card ul li { margin-bottom: 15px; font-size: 0.95rem; }
+        .price-card ul li i { color: var(--accent-orange); margin-right: 10px; }
+
+        /* Reviews */
+        .reviews-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .review-card { background: var(--bg-light); padding: 30px; border-radius: 8px; border: 1px solid var(--border-color); }
+        .review-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+        .reviewer-info { display: flex; align-items: center; }
+        .avatar { width: 45px; height: 45px; background: var(--primary-dark); color: var(--accent-orange); border-radius: 50%; display: flex; justify-content: center; align-items: center; font-weight: bold; font-size: 1.2rem; margin-right: 15px; }
+        .stars { color: #FBBC05; margin-bottom: 15px; }
+        .review-text { font-size: 0.95rem; font-style: italic; }
+
+        /* FAQ */
+        .faq { max-width: 800px; margin: 0 auto; }
+        .faq-item { background: var(--bg-white); border: 1px solid var(--border-color); margin-bottom: 15px; border-radius: 4px; overflow: hidden; }
+        .faq-question { padding: 20px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; font-weight: 600; color: var(--primary-dark); }
+        .faq-answer { padding: 0 20px; max-height: 0; overflow: hidden; transition: all 0.3s ease; color: var(--text-muted); font-size: 0.95rem; }
+        .faq-item.active .faq-answer { padding: 0 20px 20px 20px; max-height: 200px; }
+
+        /* Footer */
+        footer { background: var(--primary-dark); color: var(--bg-white); padding: 60px 5% 30px; text-align: center; }
+        .footer-content { display: flex; justify-content: center; gap: 40px; margin-bottom: 40px; flex-wrap: wrap; }
+        .footer-contact i { color: var(--accent-orange); margin-right: 10px; }
+        .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 30px; font-size: 0.9rem; color: #94A3B8; }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .logo-icon { height: 45px; }
+            .logo-text { height: 28px; }
+            .seo-h1 { font-size: 1.8rem; }
+            .hero-brand-img { max-height: 70px; }
+            .price-card.premium { transform: scale(1); }
+            section { padding: 60px 5%; }
+            .section-header h2 { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="navbar">
+        <a href="#" class="logo-container" aria-label="Bizspace Home">
+            <img src="Bizspace Logo option.png" alt="Bizspace Icon - Meeting Space Navi Mumbai" class="logo-icon">
+            <img src="Bizspace Name.png" alt="Bizspace - Working space for your business growth" class="logo-text">
+        </a>
+        <nav class="nav-links">
+            <a href="#amenities">Amenities</a>
+            <a href="#layouts">Layouts</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+        <a href="YOUR_CALENDLY_LINK_HERE" class="btn-orange" target="_blank" rel="noopener noreferrer">Book Now</a>
+    </header>
+
+    <main>
+        <!-- Hero Section (Optimized H1 for SEO) -->
+        <section class="hero">
+            <div class="hero-content reveal active">
+                <h1 class="seo-h1">Premium Boardroom & Meeting Space in Vashi</h1>
+                <img src="Bizspace Name.png" alt="Bizspace - Working space for your business growth" class="hero-brand-img">
+                <p>A highly exclusive, fully serviced 15-seater boardroom located at Ambience Court. Zero distractions, total privacy, and on-demand hourly availability for your next corporate offsite in Navi Mumbai.</p>
+                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                    <a href="YOUR_CALENDLY_LINK_HERE" class="btn-orange" target="_blank" rel="noopener noreferrer">Check Availability</a>
+                    <a href="#pricing" class="btn-orange btn-outline">View Pricing</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Banner -->
+        <aside class="trust-banner">
+            <p>"The preferred off-site space for leading HR professionals and Corporate Trainers in Navi Mumbai."</p>
+        </aside>
+
+        <!-- Amenities Section -->
+        <section id="amenities" class="amenities reveal">
+            <div class="section-header">
+                <h2>The Executive Standard</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="amenities-grid">
+                <article class="amenity-card">
+                    <i class="fas fa-tv" aria-hidden="true"></i>
+                    <h3>75" Smart Display</h3>
+                    <p>Crystal clear daytime visibility with seamless Apple and Windows wireless casting for professional presentations.</p>
+                </article>
+                <article class="amenity-card">
+                    <i class="fas fa-wifi" aria-hidden="true"></i>
+                    <h3>Enterprise Wi-Fi</h3>
+                    <p>High-speed, uninterrupted fiber connectivity optimized for global video conferencing and team collaborations.</p>
+                </article>
+                <article class="amenity-card">
+                    <i class="fas fa-chair" aria-hidden="true"></i>
+                    <h3>Modular Ergonomics</h3>
+                    <p>Premium chairs and modular 6x2 tables configurable to your exact boardroom or classroom training requirements.</p>
+                </article>
+                <article class="amenity-card">
+                    <i class="fas fa-door-closed" aria-hidden="true"></i>
+                    <h3>Absolute Privacy</h3>
+                    <p>A separate entrance with acoustic treatments ensuring confidential discussions and board meetings stay inside.</p>
+                </article>
+                <article class="amenity-card">
+                    <i class="fas fa-coffee" aria-hidden="true"></i>
+                    <h3>Executive Pantry</h3>
+                    <p>Self-service premium tea and coffee station with a dedicated private washroom for your team's convenience.</p>
+                </article>
+                <article class="amenity-card">
+                    <i class="fas fa-fingerprint" aria-hidden="true"></i>
+                    <h3>Smart Access</h3>
+                    <p>Frictionless, contact-free entry via a temporary digital PIN assigned only to you during your rental period.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="reveal">
+            <div class="section-header">
+                <h2>Transparent Hourly & Daily Rentals</h2>
+                <div class="divider"></div>
+                <p style="margin-top: 15px; color: var(--text-muted);">No hidden fees. Pay only for the workspace time you utilize.</p>
+            </div>
+            <div class="pricing-grid">
+                
+                <article class="price-card">
+                    <h3>Quick Sync</h3>
+                    <div class="price">₹1,200<span> / Hour</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Perfect for HR interviews</li>
+                        <li><i class="fas fa-check"></i> Brief client presentations</li>
+                        <li><i class="fas fa-check"></i> Access to all AV equipment</li>
+                    </ul>
+                    <a href="YOUR_CALENDLY_LINK_HERE" class="btn-orange btn-outline" style="width: 100%; text-align: center; display: block;" rel="nofollow">Book Hourly</a>
+                </article>
+                
+                <article class="price-card premium">
+                    <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: var(--accent-orange); padding: 5px 20px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; letter-spacing: 1px;">MOST POPULAR</div>
+                    <h3>Full-Day Workshop</h3>
+                    <div class="price">₹8,000<span> / 8 Hours</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Ideal for corporate training</li>
+                        <li><i class="fas fa-check"></i> Uninterrupted all-day access</li>
+                        <li><i class="fas fa-check"></i> Complimentary tea/coffee</li>
+                        <li><i class="fas fa-check"></i> Layout customized prior to arrival</li>
+                    </ul>
+                    <a href="YOUR_CALENDLY_LINK_HERE" class="btn-orange" style="width: 100%; text-align: center; display: block;" rel="nofollow">Reserve Full Day</a>
+                </article>
+
+                <article class="price-card">
+                    <h3>Half-Day Session</h3>
+                    <div class="price">₹4,500<span> / 4 Hours</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Great for team off-sites</li>
+                        <li><i class="fas fa-check"></i> Quarterly board reviews</li>
+                        <li><i class="fas fa-check"></i> Access to all AV equipment</li>
+                    </ul>
+                    <a href="YOUR_CALENDLY_LINK_HERE" class="btn-orange btn-outline" style="width: 100%; text-align: center; display: block;" rel="nofollow">Book Half-Day</a>
+                </article>
+                
+            </div>
+            <p style="text-align: center; margin-top: 30px; color: var(--text-muted); font-size: 0.9rem;">* Corporate GST tax invoices are provided for all B2B bookings.</p>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="reviews reveal">
+            <div class="section-header">
+                <h2>Client Experiences</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <div class="avatar">R</div>
+                            <div>
+                                <h4 style="font-family: 'Inter', sans-serif; color: var(--text-dark); margin: 0; font-size: 1rem;">Rahul S.</h4>
+                                <span style="font-size: 0.8rem; color: var(--text-muted);">Corporate Trainer</span>
+                            </div>
+                        </div>
+                        <svg width="20px" viewBox="0 0 24 24" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                    </div>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">"Excellent facility for our weekend workshops. The modular tables were arranged perfectly before we arrived, and the Smart TV made presentations a breeze. Highly recommended for Vashi."</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <div class="avatar">N</div>
+                            <div>
+                                <h4 style="font-family: 'Inter', sans-serif; color: var(--text-dark); margin: 0; font-size: 1rem;">Neha M.</h4>
+                                <span style="font-size: 0.8rem; color: var(--text-muted);">HR Manager</span>
+                            </div>
+                        </div>
+                        <svg width="20px" viewBox="0 0 24 24" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                    </div>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">"We use this space for off-site interviews. The separate entrance means we have total privacy. The booking process is fully automated and seamless. Will definitely book again."</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <div class="avatar" style="background: var(--accent-orange); color: white;">A</div>
+                            <div>
+                                <h4 style="font-family: 'Inter', sans-serif; color: var(--text-dark); margin: 0; font-size: 1rem;">Amit D.</h4>
+                                <span style="font-size: 0.8rem; color: var(--text-muted);">SME Director</span>
+                            </div>
+                        </div>
+                        <svg width="20px" viewBox="0 0 24 24" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                    </div>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">"Very premium feel. The central 12x4 boardroom setup looked incredibly professional for our foreign vendor meeting. The digital PIN lock system was very impressive."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="reveal">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="faq">
+                <article class="faq-item">
+                    <div class="faq-question">How do I access the meeting room? <i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+                    <div class="faq-answer">
+                        <p style="padding-top: 10px;">Upon successful payment and booking, you will receive a unique digital PIN code via email/WhatsApp. This PIN will activate the smart lock on the boardroom door exactly 15 minutes before your scheduled slot.</p>
+                    </div>
+                </article>
+                <article class="faq-item">
+                    <div class="faq-question">Is outside catering allowed for full-day rentals? <i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+                    <div class="faq-answer">
+                        <p style="padding-top: 10px;">Yes. While we provide a basic tea/coffee pantry station, you are welcome to arrange outside food (like Swiggy/Zomato). However, to protect the premium furnishings, we request that heavy meals be consumed in the designated pantry area.</p>
+                    </div>
+                </article>
+                <article class="faq-item">
+                    <div class="faq-question">What is the cancellation policy? <i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+                    <div class="faq-answer">
+                        <p style="padding-top: 10px;">You can reschedule or cancel your booking with a full refund up to 24 hours prior to your slot. Cancellations made within 24 hours are non-refundable to protect schedule integrity.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <address class="footer-contact" style="font-style: normal;">
+                <i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+919152049967" style="color:white;">+91 9152049967</a>
+            </address>
+            <address class="footer-contact" style="font-style: normal;">
+                <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:bookings@bizspace.in" style="color:white;">bookings@bizspace.in</a>
+            </address>
+            <address class="footer-contact" style="font-style: normal;">
+                <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 10th Floor, Ambience Court, Sector 19D, Vashi, Navi Mumbai, 400705
+            </address>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Bizspace - Premium Corporate Facilities. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) { header.classList.add('scrolled'); } 
+            else { header.classList.remove('scrolled'); }
+        });
+
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                if (elementTop < windowHeight - 100) { reveals[i].classList.add("active"); }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        reveal();
+
+        const faqs = document.querySelectorAll('.faq-item');
+        faqs.forEach(faq => {
+            faq.addEventListener('click', () => {
+                faqs.forEach(item => { if (item !== faq) item.classList.remove('active'); });
+                faq.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
